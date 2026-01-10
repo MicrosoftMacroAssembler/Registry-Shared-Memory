@@ -1,4 +1,4 @@
-# Shared-Memory-Driver
+# Registry-Shared-Memory
 
 Shared Memory Driver exploiting a Registery Callback ( `CmRegisterCallbackEx` ) for communication using a MDL. <br />
 It creates a Registry Key ( `SOFTWARE\\SharedMemory` ) and writes two different Values to the Registry Key for communication.  <br />
