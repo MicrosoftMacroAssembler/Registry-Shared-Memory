@@ -226,10 +226,12 @@ namespace paging {
 				if ( process_cr3 )
 					*process_cr3 = current_dtb.flags;
 
+				nt::dbg_print( oxorany( "[paging] get_process_cr3: Found Process DTB (0x%llx)\n", *process_cr3 );
 				return true;
 			}
 		}
-
+		
+		nt::dbg_print( oxorany( "[paging] get_process_cr3: Could not find DTB\n" );
 		return false;
 	}
 }
