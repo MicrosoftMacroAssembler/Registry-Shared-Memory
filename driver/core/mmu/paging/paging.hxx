@@ -231,7 +231,7 @@ namespace paging {
 			}
 		}
 		
-		nt::dbg_print( oxorany( "[paging] get_process_cr3: Could not find DTB\n" );
+		nt::dbg_print( oxorany( "[paging] get_process_cr3: Could not find DTB\n" ) );
 		return false;
 	}
 }
